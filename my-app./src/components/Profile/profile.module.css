@@ -1,0 +1,70 @@
+
+html {
+	box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+  }
+  
+  
+  .profile{
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid #d8e0ea;
+    border-radius: 10px;
+    box-shadow: 0 0 1em;
+}
+
+.description{
+    width: 350px;
+	height: auto;
+
+}
+
+.avatar{
+width: 250px;
+}
+
+.name{
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.tag{
+margin-top: 20px;
+color: cornflowerblue;
+}
+
+.location{
+    margin-top: 20px;
+    color: dimgrey;
+}
+
+.stats{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.label{
+    display: flex; 
+    margin-right: 20px;
+    padding-top: 22px;
+    font-size: 18px;
+    color: blue;
+   }
+
+.quantity{
+    padding-bottom: 22px;
+    line-height: 1.2;
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+}
